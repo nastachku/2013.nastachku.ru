@@ -1,0 +1,2525 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<link href='favicon.ico' rel='icon' type='image/x-icon'>
+<link href='favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<meta content='http://nastachku.ru/assets/fb_logo.png' property='og:image'>
+<meta content='Digital-коммуникации, Программирование, IT-стартапы, Электронная коммерция, Менеджмент в IT, IT на службе общества' property='og:description'>
+<title>Доклады | Стачка! 2013 Архив</title>
+<!-- %title= content_for?(:title) ? yield(:title) : "Стачка! Конференция" -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-38587983-1', 'nastachku.ru');
+  ga('require', 'displayfeatures');
+  ga('require', 'linkid', 'linkid.js');
+  /* Openstat parser v3 minimized */
+  var campaign={_params:{},_parsed:!1,_decode64:function(a){if('function'==typeof window.atob)return atob(a);var r,t,n,i,e,s,o,p,d='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=',h=0,c=0,f='',m=[];if(!a)return a;a+='';do i=d.indexOf(a.charAt(h++)),e=d.indexOf(a.charAt(h++)),s=d.indexOf(a.charAt(h++)),o=d.indexOf(a.charAt(h++)),p=i<<18|e<<12|s<<6|o,r=p>>16&255,t=p>>8&255,n=255&p,m[c++]=64==s?String.fromCharCode(r):64==o?String.fromCharCode(r,t):String.fromCharCode(r,t,n);while(h<a.length);return f=m.join('')},_parse:function(){var a=window.location.search.substr(1),r=a.split('&');this._params={};for(var t=0;t<r.length;t++){var n=r[t].split('=');this._params[n[0]]=n[1]}this._parsed=!0},hasMarker:function(){return window.location.search.indexOf('utm_')>0?!1:(this._parsed||this._parse(),'undefined'!=typeof this._params._openstat?!0:!1)},buildCampaignParams:function(){if(!this.hasMarker())return!1;var a=this._decode64(this._params._openstat),r=a.split(';');return{campaignName:r[1],campaignSource:r[0],campaignMedium:'cpc',campaignContent:r[2]+' ('+r[3]+')'}}};
+  var hit=campaign.hasMarker()?campaign.buildCampaignParams():{};
+  hit.page=location.pathname+location.search+location.hash;
+  ga('send', 'pageview', hit);
+  /* Accurate bounce rate by time */
+  document.referrer&&0==document.referrer.split('/')[2].indexOf(location.hostname)||setTimeout(function(){ga('send','event','Сеансы','Сеансы без отказов',location.pathname)},15000);
+</script>
+
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="8dZX0LOuMLWl8CHl/+JpvkMI2i3JwAAZnvNEkI9hDxM=" name="csrf-token" />
+
+<link href="assets/web/application-963ba33359fbb6ccaabf74ee196285e4.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class='main'>
+<div class='navbar navbar-position-top' id='nav_top'>
+<div class='navbar-inner'>
+<div class='container'>
+<nav class='social-public-links pull-left'>
+<ul>
+<li>
+<a href='http://www.facebook.com/nastachku?ref=stream' target='_blank'>
+<i class='ficon-facebook-rect'></i>
+</a>
+</li>
+<li>
+<a href='https://twitter.com/nastachku' target='_blank'>
+<i class='ficon-twitter-bird'></i>
+</a>
+</li>
+<li>
+<a href='http://vk.com/nastachku' target='_blank'>
+<i class='ficon-vkontakte-rect'></i>
+</a>
+</li>
+</ul>
+</nav>
+<ul class='nav pull-left'>
+<li><a href="http://2012.nastachku.ru" class="btn-shine add_lecture prev_year" target="_blank">Стачка! 2012</a></li>
+<li><a href="account/shirt_orders/new.html" class="btn-shine btn-shine-colored add_lecture prev_year">Купить футболку</a></li>
+<li><a href="account/afterparty_orders/new.html" class="btn-shine add_lecture">Афтепати</a></li>
+</ul>
+<ul class='nav pull-right'>
+</ul>
+</div>
+</div>
+</div>
+<!-- Header Starts -->
+<header>
+<div class='container'>
+<div class='row'>
+<div class='span2'>
+<div class='logo'>
+<h1>
+<a href='index.html'>
+<img alt="" height="69" src="assets/stachka_logo.png" width="136" />
+</a>
+</h1>
+</div>
+</div>
+<div class='span10 right'>
+<div class='info'>
+<h3>
+Ульяновск
+<span class='color'>
+12-13 апреля 2013
+</span>
+Ленинский мемориал
+</h3>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<div class='container no-padding' id='nav_main'>
+<div class='navbar'>
+<div class='navbar-inner no-padding'>
+<a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+<span>Меню</span>
+</a>
+<div class='nav-collapse collapse'>
+<ul class='nav no-padding main-menu' role='navigation'>
+<li class=''>
+<a href="users.html">Участники (3189)</a>
+</li>
+<li><a href="schedule.html">Программа</a></li>
+<li><a href="lectors.html">Докладчики</a></li>
+<li class="active"><a href="lectures.html">Доклады</a></li>
+<li><a href="user_lectures.html">Доклады 2.0</a></li>
+<!-- = item :li, t(".routes"), page_path(:routes) -->
+<li><a href="pages/broadcast.html">Стачка ON-LINE</a></li>
+<li><a href="pages/contacts.html">Контакты</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class='container' id='main_container'>
+<div class='content'>
+
+<h1>Доклады</h1>
+<div class='row workshop'>
+<div class='span3'>
+<ul class='nav nav-list b-affix'>
+<li><a href="lectures_workshop_id_eq9.html">ИТ и общество</a></li>
+<li><a href="lectures_workshop_id_eq8.html">Мобильные приложения</a></li>
+<li><a href="lectures_workshop_id_eq7.html">SEO</a></li>
+<li><a href="lectures_workshop_id_eq6.html">Тестирование</a></li>
+<li><a href="lectures_workshop_id_eq5.html">Менеджмент в IT</a></li>
+<li><a href="lectures_workshop_id_eq4.html">Digital-коммуникации</a></li>
+<li><a href="lectures_workshop_id_eq3.html"> Электронная коммерция</a></li>
+<li><a href="lectures_workshop_id_eq1.html">Программирование</a></li>
+</ul>
+</div>
+<div class='span9'>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5 class='lector'>Павел Мищенко</h5>
+<h6>
+<strong>Креативное агентство ЦРУ</strong>
+</h6>
+<div class='pic'>
+<img alt="60cc7824f153dfc1a384764acc0d2380" src="system/uploads/users_photos/photo/404/60cc7824f153dfc1a384764acc0d2380.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Утренний DIGITAL-джем от агентства ЦРУ</h4>
+<p class='ainfo'>Самые интересные ролики и кейсы от ведущих Digital-агентств России. Смотрим, обсуждаем, просыпаемся...
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Алексей Казаков</h5>
+<h6>
+<strong>DEFA</strong>
+</h6>
+<div class='pic'>
+<img alt="05c1d9abab3408930e64eb301254458c" src="system/uploads/users_photos/photo/2577/05c1d9abab3408930e64eb301254458c.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Оптимальный процесс производства интернет-проектов «индивидуального пошива». Опыт DEFA.</h4>
+<p class='ainfo'>1. Особенности и специфика разрабатываемых проектов
+<br>
+2. Проблемы, возникающие в процессе работы
+<br>
+3. Роли каждого участника команды.Как это устроено в DEFA
+<br>
+4. Способ построения процесса. Гибкие методологии разработки (Agile)
+<br>
+5. Инструменты, позволяющие управлять рабочим процессом
+<br>
+6. Корпоративный портал 1С-Битрикс как основной инструмент разработчика.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Вячеслав Федоров</h5>
+<h6>
+<strong>e-MoneyNews</strong>
+</h6>
+<div class='pic'>
+<img alt="61ec367dfeb7be5c50f439ae37614892" src="system/uploads/users_photos/photo/2099/61ec367dfeb7be5c50f439ae37614892.png" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Состояние дел рынка e-travel и перспективы рынка</h4>
+<p class='ainfo'>Состояние дел рынка e-travel на базе полученного опыта ОТА (онлайн тревел агентства) и перспективы рынка
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Александра Гавдаева</h5>
+<h6>
+<strong>UsabilityLab</strong>
+</h6>
+<div class='pic'>
+<img alt="3eb42d26aa73224783ab433129baf26a" src="system/uploads/users_photos/photo/1580/3eb42d26aa73224783ab433129baf26a.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Юзабилити-тестирование от а до я. Мастер-класс.</h4>
+<p class='ainfo'>Что это такое? Кто может помочь? Какие задачи решает? И как его проводить?
+<br>
+Веселая атмосфера, минимум теории и максимум практики.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Елена Столбова</h5>
+<h6>
+<strong>LingPlay LLC</strong>
+</h6>
+<div class='pic'>
+<img alt="2dcb5904e91a650a26a121d882173208" src="system/uploads/users_photos/photo/707/2dcb5904e91a650a26a121d882173208.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Препродакшн мобильных приложений: за и против</h4>
+<p class='ainfo'>Из этого доклада вы узнаете как подготовиться к выходу мобильного приложения: маркетинговый канбан с SMM-элементами, 4 шага к победе, customer development, сбор метрик и подведение итогов. Особое внимание мы уделим вопросу pre-production, который зачастую является залогом успеха.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Люси Чэмбэрс</h5>
+<h6>
+<strong>Open Knowledge Foundation</strong>
+</h6>
+<div class='pic'>
+<img alt="1a9da7d133d0a1c3f60362641ec8286d" src="system/uploads/users_photos/photo/2611/1a9da7d133d0a1c3f60362641ec8286d.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Что такое Открытые Данные и Секреты Успеха</h4>
+<p class='ainfo'>Открытые государственные данные представляют собой невиданные ранее возможности для ИТ-специалистов и бизнесменов, органов власти, СМИ и гражданского общества, ведь именно они становятся &quot;сырьем&quot; для создания успешных коммерческих веб- и мобильных приложений, сенсационных материалов и новых общественных услуг. Узнай, какой потенциал несут в себе открытые данные  и что ты можешь сделать уже сегодня
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Алексей Любко</h5>
+<h6>
+<strong>Пряники</strong>
+</h6>
+<div class='pic'>
+<img alt="D4099dea67332abfdd1f17f579715755" src="system/uploads/users_photos/photo/2634/d4099dea67332abfdd1f17f579715755.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Игровые механики в корпоративной среде. Лайки и бейджи на службе бизнеса.</h4>
+<p class='ainfo'>Использование игровых механик в бизнесе – новый интересный тренд. Доклад посвящен сценариям и возможностям использования игровых механик в корпоративной среде для мотивации и вовлечения сотрудников, краудсорсинга идей, управления изменениями, повышения эффективности, а также использованию инструментов игровых механик - виртуальных наград-бейджей, внутренней валюты для благодарностей, рейтингов и списков лидеров и др. в корпоративной среде
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Быков Виталий</h5>
+<h6>
+<strong>Red Keds</strong>
+</h6>
+<div class='pic'>
+<img alt="D4a26652b558fb2070bde92a3899cffd" src="system/uploads/users_photos/photo/2643/d4a26652b558fb2070bde92a3899cffd.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Имидж ничто — перфоманс всё!</h4>
+<p class='ainfo'>- Что нужно клиентам сегодня?
+<br>
+- Как выбирать в рекламе что говорить, где и кому
+<br>
+- Как реклама позволяет зарабатывать
+<br>
+- Какая реклама будет в будущем
+<br>
+
+<br>
+Это доклад основан на запросах клиентов в компанию Red Keds. В течение года к нам обращается более 200 клиентов. Крупные транснациональные бренды и интернет-магазины, b2b и ритейл, частные заказчики и государственные структуры. У каждого есть цель. Цель не всегда продажа, но если говорить о бизнес результате, то мало кто может ответить как его достичь с помощью продвижения. Как уйти от производства к пониманию маркетинга и продаж? Как срастить продажи с маркетингом, чтобы получить результат? На эти вопросы мы постаемся дать ответы в докладе.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Анна Казакова</h5>
+<h6>
+<strong>CM-LAB</strong>
+</h6>
+<div class='pic'>
+<img alt="C476d4dde423a6152ecc07456a4dc253" src="system/uploads/users_photos/photo/2257/c476d4dde423a6152ecc07456a4dc253.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Контент-маркетинг. Как привлечь клиента, если он больше не хочет видеть рекламу?</h4>
+<p class='ainfo'>1. Что такое этот самый контент-маркетинг? Рассказываем о новой тенденции в современном интернет-маркетинг
+<br>
+2. Дрели или дыры? Рассказываем о том, что людям нужно достичь свою цель - сделать дыру, а не купить дрель - ваш продукт. И как контент-маркетинг отвечает этому тезису.
+<br>
+3. Чем контент-маркетинг лучше SEO? Рассказываем о том, чем СЕО проигрывает контент-маркетингу и как контент-маркетинг может помочь СЕО.
+<br>
+4. А как отследить результаты контент-маркетинга? Пытаемся определить kpi для контент-маркетинга.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Владимир Верховский</h5>
+<h6>
+<strong>e-legion.ru</strong>
+</h6>
+<div class='pic'>
+<img alt="53f9411576c5c56d034b08fa5025c1be" src="system/uploads/users_photos/photo/2258/53f9411576c5c56d034b08fa5025c1be.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Mobile vs Web. В чём разница для заказчика?</h4>
+<p class='ainfo'>Поделюсь опытом в сфере мобильных разработок с точки зрения менеджера.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Дмитрий Буталов</h5>
+<h6>
+<strong>Yord Apps</strong>
+</h6>
+<div class='pic'>
+<img alt="2afd615c0ab5595ffbc16263602e7071" src="system/uploads/users_photos/photo/2256/2afd615c0ab5595ffbc16263602e7071.JPG" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Глобальная партизанская война. Маркетинг indie приложений.</h4>
+<p class='ainfo'>Каждый разработчик это знает: рынок мобильных приложений дает миллиарды долларов выручки! Только вот львиную часть этих денег забирают большие бренды. Пытаться опередить их, вливая крупные суммы в продвижение, просто глупо. Как вы опередите Disney или EA?? На верхних этажах сейчас борются гиганты. И конкуренция привела к тому, что в топах аппстора органики зачастую меньше 50%, а то и 30%! Другими словами, потенциальная выручка может не покрыть стоимость маркетинга, не говоря уже о стоимости разработки.
+<br>
+
+<br>
+В таких условиях, как быть независимым разработчикам? Короткий ответ: партизанская война. Ее приемы, выстраданные практически потом и кровью, в моем выступлении.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Камиль Калимуллин</h5>
+<h6>
+<strong>ИТМ</strong>
+</h6>
+<div class='pic'>
+<img alt="B8e2e29faa318787f481013370e137ac" src="system/uploads/users_photos/photo/231/b8e2e29faa318787f481013370e137ac.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>“SMM - это вам не MMM, или Почему не все «лайки» одинаково полезны?”</h4>
+<p class='ainfo'>В своём докладе расскажу у о том как проводить успешные SMM-компании, и о том что в SMM не работает.
+<br>
+Рассмотрим кейсы, особое внимание уделим контент-стратегии, как составной части любого SMM.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Михаил Казаков</h5>
+<h6>
+<strong>Pichesky</strong>
+</h6>
+<div class='pic'>
+<img alt="B6aca1eed70d9615cb6f509333fa0f74" src="system/uploads/users_photos/photo/2266/b6aca1eed70d9615cb6f509333fa0f74.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Измерение присутствия бренда в социальных сетях или что значат цифры?</h4>
+<p class='ainfo'>В коротком докладе я покажу, как понять, хорошо или плохо иметь 10 000 подписчиков в Facebook и почему 1000 фолловеров в Foursquare может быть полезнее для вашего бизнеса.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Дмитрий Коробицын</h5>
+<h6>
+<strong>Поставщик счастья</strong>
+</h6>
+<div class='pic'>
+<img alt="B3ee5b01315860f68cdb366098736968" src="system/uploads/users_photos/photo/1241/b3ee5b01315860f68cdb366098736968.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Современные бизнес-модели интернет-магазинов.  Главные зоны внимания руководителя ИМ</h4>
+<p class='ainfo'>Бизнес-модели интернет-магазинов кардинально не изменились за время их существования, однако развитие логистических сервисов привело к появлению новых схем работы. Эти веяния затронули и e-commerce. Мы погорим о существующих бизнес-моделях ИМ, требованиях к автоматизации бизнес-процессов в разных моделях, как со стороны магазинов так и со стороны поставщиков.
+<br>
+Бизнес процесс любого ИМ это довольно длинная цепочка. Куда нужно смотреть руководителю e-commerce компании, чтобы не упустить важных моментов? Каким вопросам нужно уделять внимание каждый день, а про какие можно вспоминать раз в год?
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Нина Калаус</h5>
+<h6>
+<strong>Магвай</strong>
+</h6>
+<div class='pic'>
+<img alt="61a0a5816275e6fe6af7bdb990599d12" src="system/uploads/users_photos/photo/2078/61a0a5816275e6fe6af7bdb990599d12.png" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Как региональной веб-студии заполучить в портфолио крупные бренды</h4>
+<p class='ainfo'>Хочу рассказать о том, как делать красивые сайты с клевыми концептами, находясь в регионе, при этом работая на Москву и зарубежье. О том как наша студия поддерживает и развивает сайты компании Epson Россия и СНГ. Об опыте работы с селебрити Никасом Сафроновым и репером Карандашом. А также мы представим кейс корпоративного ресурса epson.ru и промо-сайта Epson, приуроченного к ЧМ 2012.
+<br>
+Работать с крупными компаниями и жить не в Москве - вполне реально!
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Руслан Фазлыев</h5>
+<h6>
+<strong>Ecwid</strong>
+</h6>
+<div class='pic'>
+<img alt="F23bf080be35718ee6e4afdc48525fe6" src="system/uploads/users_photos/photo/1354/f23bf080be35718ee6e4afdc48525fe6.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Как Ecwid стал решением электронной коммерции номер 1 на Facebook.</h4>
+<p class='ainfo'>Руслан Фазлыев, расскажет как довести продукт от идеи до успеха на примере восьми историй из жизни Эквид: победителя «Бизнес-Проект’2010» от Google &amp; Forbes, «TNW Startup Awards Russia: Ecommerce ‘2012».
+<br>
+
+<br>
+Вы узнаете:
+<br>
+
+<br>
+Что дало старт тренду социальной коммерции.
+<br>
+Как Эквид вступил в битву за Facebook.
+<br>
+Чем работа со множеством маленьких клиентов круче работы с единицами больших.
+<br>
+Как скорость побеждает деньги.
+<br>
+Почему нельзя игнорировать мелких игроков
+<br>
+Как мы купили базу самого крупного конкурента.
+<br>
+
+<br>
+Это и многое другое – от Руслана, стартапера с 14-летним стажем.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Владимир Юнев</h5>
+<h6>
+<strong>Microsoft</strong>
+</h6>
+<div class='pic'>
+<img alt="8a1b534669c6b87fb69ccbbd85ec56e0" src="system/uploads/users_photos/photo/2149/8a1b534669c6b87fb69ccbbd85ec56e0.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Облачная платформа Windows Azure для веб-разработчиков</h4>
+<p class='ainfo'>Веб-разработчики сегодня являются наиболее близкими друзьями облачных технологий. Ведь облака позволяют компаниям создающим веб-проекты отказаться от собственной инфраструктуры и сэкономить время, деньги и усилия для того чтобы направить их на развитие своего основного продукта. Кроме того, облачные технологии предлагают недостижимый для личной инфраструктуры уровень масштабирования, гибкости, отказоустойчивости и защиты информации.
+<br>
+
+<br>
+В этом докладе мы рассмотрим конкретные технологии, которые предлагает облачная платформа Windows Azure для веб-разработчиков. Windows Azure - это самая открытая платформа компании Microsoft, которая позволяет применять ее для проектов на любой платформе с любыми инструментами и на любой операционной системе. В рамках доклада мы рассмотрим как получить преимущества облака для своих проектов на базе различных технологий: PHP, Python, Java, ASP.NET, Git или TFS, Linux или Windows, MySQL, MongoDB или SQL Server.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Антон Голубчик</h5>
+<h6>
+<strong>SeoPult</strong>
+</h6>
+<div class='pic'>
+<img alt="803f8ba6f22ac5d44ec299db04de939b" src="system/uploads/users_photos/photo/2095/803f8ba6f22ac5d44ec299db04de939b.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>SMM и SEO. Кто виноват и что делать</h4>
+<p class='ainfo'>Не секрет, что к специалистам в области SMM начали относиться настороженно, они разделили участь своих &quot;старших братьев&quot; - сеошников. На докладе поговорим о том, что же стало настоящей причиной такого отношения и проясним как обстоят дела на самом деле. Расскажем как наиболее эффективно наладить связку SEO+SMM, и что на самом деле нужно делать вебмастерам и владельцам бизнеса в изменяющимся мире алгоритмов поисковых систем.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Серегей Егорушкин</h5>
+<h6>
+<strong>Digly.ru</strong>
+</h6>
+<div class='pic'>
+<img alt="4f30153e9c3dce590a2eda43df317a0c" src="system/uploads/users_photos/photo/1243/4f30153e9c3dce590a2eda43df317a0c.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Ошибки в электронной торговле: как не быть как все</h4>
+<p class='ainfo'>Доклад об особенностях поведения покупателей в сети, о том, почему в интернете трудно покупать, об «общих» ошибках, о секретах продвижения товаров, механике продаж, работе с аудиторией и способах оценки эффективности интернет-магазина. Также новички получат практические советы, с чего следует начать при открытии интернет-магазина.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Алексей Махоткин</h5>
+<h6>
+<strong>Undev.ru</strong>
+</h6>
+<div class='pic'>
+<img alt="Mahotkin" src="system/uploads/users_photos/photo/918/mahotkin.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Ближе к реальности</h4>
+<p class='ainfo'>Мы поговорим о полезной классификации социальных сервисов с точки зрения первичности или вторичности контента.  Представленная модель позволяет анализировать рыночные ниши, проектировать взаимодействие с пользователями и управлять ожиданиями пользователей.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Макс Лапшин</h5>
+<h6>
+<strong></strong>
+</h6>
+<div class='pic'>
+<img alt="Lapshin" src="system/uploads/users_photos/photo/668/lapshin.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Как начать продавать серверное ПО?</h4>
+<p class='ainfo'>Технические, организационные и бизнес-проблемы в старте продаж собственного ПО.
+<br>
+
+<br>
+Зачем может захотеться заниматься собственным ПО, брать или не брать инвестиции и другие вопросы.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Константин Осипов</h5>
+<h6>
+<strong>Mail.Ru Group</strong>
+</h6>
+<div class='pic'>
+<img alt="________________-______" src="system/uploads/users_photos/photo/710/________________-______.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Новые возможности репликации в MySQL 5.6</h4>
+<p class='ainfo'>Одно из существенных нововведений MySQL 5.6 - global transaction
+<br>
+identifiers (глобальные идентификаторы транзакций). О механизме
+<br>
+действия новых идентификаторов, а также новых возможностях 5.6,
+<br>
+основанных на этом понятии я постараюсь рассказать в своём
+<br>
+докладе.  В частности, мной будут рассмотрены новый, упрощённый
+<br>
+механизм fail-over, multi-source репликация, разрешение
+<br>
+конфликтов репликации.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Вячеслав Федоров</h5>
+<h6>
+<strong>e-MoneyNews</strong>
+</h6>
+<div class='pic'>
+<img alt="61ec367dfeb7be5c50f439ae37614892" src="system/uploads/users_photos/photo/2099/61ec367dfeb7be5c50f439ae37614892.png" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Потенциал рынка, Smart TV и внимание к мошенникам</h4>
+<p class='ainfo'>- Способы воровства платежных данных
+<br>
+- Способы вывода наличных
+<br>
+- Защита интернет проекта
+<br>
+- Статистические показатели по рынку
+<br>
+- Потенциал Smart TV
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Григорий Коченов</h5>
+<h6>
+<strong>AGIMA</strong>
+</h6>
+<div class='pic'>
+<img alt="9593535744279f69b59443c07a40a457" src="system/uploads/users_photos/photo/2089/9593535744279f69b59443c07a40a457.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Истории в дизайне превыше всего</h4>
+<p class='ainfo'>Доклад про истории.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Григорий Коченов</h5>
+<h6>
+<strong>AGIMA</strong>
+</h6>
+<div class='pic'>
+<img alt="9593535744279f69b59443c07a40a457" src="system/uploads/users_photos/photo/2089/9593535744279f69b59443c07a40a457.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Адаптивные онлайн-СМИ: самоубийство или прорыв?</h4>
+<p class='ainfo'>Многие считают, что RWD рационально использовать только на небольших интернет-проектах. На примере успешных и не очень крупнейших адаптивных информационных порталов я попытаюсь развеять этот миф. Успех Boston Globe, особенности адаптивного сайта BBC, эксперименты Times. Также я расскажу про потребление отечественных онлайн СМИ, и о том, как можно плотнее взаимодействовать со своей мобильной аудиторией. О технических сложностях, с которыми сталкиваются разработчики, и немного о проблемах в рекламе и монетизации на небольших экранах.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Алексей Палажченко</h5>
+<h6>
+<strong>Express 42</strong>
+</h6>
+<div class='pic'>
+<img alt="Palajchenko" src="system/uploads/users_photos/photo/129/palajchenko.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Go в бою</h4>
+<p class='ainfo'>В своём докладе я расскажу про наше использование Go в production:
+<br>
+- cgo: вызов функций C из Go и Go из C;
+<br>
+- mruby: встраиваем интерпретатор;
+<br>
+- тестирование: модульное, системное и нагрузочное;
+<br>
+- управление внешними пакетами: с версиями или без них;
+<br>
+- деплоймент: перезапуск без даунтайма;
+<br>
+- мониторинг: покажем все наши метрики.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Роман Тихонов</h5>
+<h6>
+<strong>Интернет Агентство Ферт</strong>
+</h6>
+<div class='pic'>
+<img alt="1c3ad78fa993088a0baf9ac5f3658bc6" src="system/uploads/users_photos/photo/1502/1c3ad78fa993088a0baf9ac5f3658bc6.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Опыт создания и развития бизнеса &quot;Интернет-магазин&quot; от владельца веб-студии.</h4>
+<p class='ainfo'>Как правильно сделать, как эффективно развивать магазин и добиваться успеха, используя все знания и навыки веб-разработчика.
+<br>
+Три блока информации:
+<br>
+1. Как правильно выбрать товарный сегмент.
+<br>
+2. Как эффективно, и за малые деньги, продвигать магазин.
+<br>
+3. Что анализировать для увеличения продаж.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Алексей Лебедев</h5>
+<h6>
+<strong>Mamba</strong>
+</h6>
+<div class='pic'>
+<img alt="19e206fdcbc815414ac77963ff30e7ae" src="system/uploads/users_photos/photo/1262/19e206fdcbc815414ac77963ff30e7ae.JPG" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Анализ и статистика почтовых рассылок</h4>
+<p class='ainfo'>Почтовые рассылки для веб-сервисов являются важным каналом для общения с пользователями.
+<br>
+Анализ и статистика различных показателей почтовых рассылок дает возможность усовершенствовать
+<br>
+письма, отсылаемые пользователям сайта, улучшить показатели проходимости и кликабельности писем,
+<br>
+уменьшить количество жалоб на письма.
+<br>
+В докладе будет рассказано о том, какие показатели рассылок нуждаются в измерении, приведены
+<br>
+методологии измерений и пути решения для &quot;проблемных&quot; писем на примере почтовой статистики в &quot;Мамбе&quot;.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Евгения Корчагина</h5>
+<h6>
+<strong>MST Digital Agency</strong>
+</h6>
+<div class='pic'>
+<img alt="081f96296932de1f195439d6ad45bc83" src="system/uploads/users_photos/photo/1775/081f96296932de1f195439d6ad45bc83.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Реклама на популярных Интернет-ресурсах без затрат: такое возможно?</h4>
+<p class='ainfo'>- Способы Интернет-продвижения компании.
+<br>
+- А зачем Вам сайт? Создание собственного сайта: за и против.
+<br>
+- Что такое онлайн-каталоги?  Их достоинства и недостатки.
+<br>
+- Грамотное использование чужих площадок: баннерная реклама, размещение новостей, проведение конкурсов.
+<br>
+
+<br>
+Об этом и не только я с удовольствием расскажу менеджерам по продажам и рекламе, маркетологам и аналитикам, PR-специалистам, а также всем, кому просто интересно.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Андрей Липатцев</h5>
+<h6>
+<strong>Google</strong>
+</h6>
+<div class='pic'>
+<img alt="45abae80090cb812e9ecd47cc310484b" src="system/uploads/users_photos/photo/1780/45abae80090cb812e9ecd47cc310484b.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Новинки в Инструментах Google для веб-мастеров: Маркер для расширенных сниппетов, Статус индексирования и Отклонение ссылок</h4>
+<p class='ainfo'>Google предлагает веб-мастерам ряд инструментов для наиболее эффективного взаимодействия с поисковой системой. В ходе этого практического доклада я продемонстрирую, как пользоваться некоторыми из этих инструментов, объясню их практическую пользу и правильное применение.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Александра Гавдаева</h5>
+<h6>
+<strong>UsabilityLab</strong>
+</h6>
+<div class='pic'>
+<img alt="3eb42d26aa73224783ab433129baf26a" src="system/uploads/users_photos/photo/1580/3eb42d26aa73224783ab433129baf26a.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Хороший, плохой, юзабельный</h4>
+<p class='ainfo'>В современном мире все думают, что юзабилити быстрое достижение цели, забывая о истинном смысле этого слова.
+<br>
+В конечном итоге хочется же не только чтобы пользователь раз воспользовался продуктом, но еще и возвращался и советовал его друзьям.
+<br>
+Какие трудности возникают у пользователей, с чем они сталкиваются и как решить их проблемы, чтобы бизнес был еще эффективнее.
+<br>
+Современные тенденции в юзабилити и о многом другом в моем докладе.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Александра Тачалова</h5>
+<h6>
+<strong>SEMrush</strong>
+</h6>
+<div class='pic'>
+<img alt="2aab83e89356a83b192f1edbcb82e774" src="system/uploads/users_photos/photo/1372/2aab83e89356a83b192f1edbcb82e774.png" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Контент, который работает 24/7</h4>
+<p class='ainfo'>Расскажу в докладе о том, какой контент бывает, кто его читает и для какого ресурса какой больше подходит. Разберу конкретные кейсы по разным сегментам индустрии, где поведу рассказ о том, как можно сделать лучше или перенять чужой опыт.
+<br>
+
+<br>
+О чем не расскажу (даже не просите):
+<br>
+
+<br>
+Что контент должен быть уникальный
+<br>
+Что контент должен быть востребованный
+<br>
+Что контент должен быть качественный
+<br>
+Что контент должен быть ………
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Оксана Богомаз</h5>
+<h6>
+<strong>NetCat</strong>
+</h6>
+<div class='pic'>
+<img alt="E2740f64fbc8be0a26c44c5d3ee302bc" src="system/uploads/users_photos/photo/1574/e2740f64fbc8be0a26c44c5d3ee302bc.png" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Каменный век мобильной разработки</h4>
+<p class='ainfo'>Почему в России так медленно развивается рынок мобильной веб-разработки? В конце прошлого года мы провели исследование среди 500 российских веб-студий и задали им самые животрепещущие вопросы:
+<br>
+- Почему клиенты не доверяют мобильным сайтам?
+<br>
+- Как студии увеличивают бюджеты на разработку мобильных сайтов?
+<br>
+- Каким сайтам нужны мобильные версии?
+<br>
+- Какие функции они должны выполнять?
+<br>
+- В своем докладе я расскажу вам не только о том, какая из всего этого исследования складывается общая картина, но и как можно сэкономить на разработке мобильной версии сайта
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Дмитрий Васильев</h5>
+<h6>
+<strong></strong>
+</h6>
+<div class='pic'>
+<img alt="3deaed8a2bfdfbe353968d44ce1bf99f" src="system/uploads/users_photos/photo/1144/3deaed8a2bfdfbe353968d44ce1bf99f.png" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Практика разработки мобильных сайтов</h4>
+<p class='ainfo'>Наличие мобильной версии стало уже необходимым условием для успешного развития онлайн-проектов. Я буду говорить про существующие подходы к созданию мобильных сайтов, на чем они основаны и чем отличаются друг от друга. Продемонстрирую на примерах возможности каждого из них и расскажу, почему только один из этих подходов представляется мне наиболее эффективным.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Антон Кортунов</h5>
+<h6>
+<strong>Яндекс</strong>
+</h6>
+<div class='pic'>
+<img alt="A06598d574b01152537e478a7684ba6c" src="system/uploads/users_photos/photo/1553/a06598d574b01152537e478a7684ba6c.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Big data: realtime хранилище данных</h4>
+<p class='ainfo'>В своем докладе мы с Андреем Сибиревым расскажем вам вот про что:
+<br>
+  – куда деть эти миллиарды записей, как их хранить, как масштабироваться и не задохнуться при этом?
+<br>
+  – как устроить свой собственный вычислительный кластер для обработки этого миллиарда, а заодно и для решения других задач?
+<br>
+  – как сделать облачную платформу за своим фаерволом?
+<br>
+  – как вообще можно обработать миллиарды записей - почему уже неинтересно запускать mapreduce, какие с ним бывают проблемы?
+<br>
+  – как в реалтайме построить целый потоковый процесс с сотней вычислительных приложений, которые будут без проблем переваривать такие объемы?
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Михаил Бланк</h5>
+<h6>
+<strong>Интернет-агентство &quot;ДАЛЕЕ&quot;</strong>
+</h6>
+<div class='pic'>
+<img alt="Df38e47d667d9b7822f4b039e952958e" src="system/uploads/users_photos/photo/1571/df38e47d667d9b7822f4b039e952958e.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Digital-стратегия для бренда: виды и примеры</h4>
+<p class='ainfo'>— Виды стратегий
+<br>
+— Структура стратегии и ее ценность для клиента
+<br>
+— Трудности при разработке стратегии
+<br>
+— Кейсы
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Константин Осипов</h5>
+<h6>
+<strong>Mail.Ru Group</strong>
+</h6>
+<div class='pic'>
+<img alt="________________-______" src="system/uploads/users_photos/photo/710/________________-______.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Tarantool: хранение данных на диске</h4>
+<p class='ainfo'>Почему то, что в PostgreSQL занимает несколько секунд, в MySQL может занимать минуты и часы, и наоборот? Почему может деградировать со временем производительность NoSQL кластера Voldemort,  и как выбор back-end'а позволяет эту проблему решить?
+<br>
+
+<br>
+В докладе я попытаюсь рассказать как СУБД, SQL или NoSQL, хранит данные на диске: дам обзор существующих алгоритмов, а также расскажу про решение, которое мы выбрали и реализовали в Tarantool/Box.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Вадим Крючков</h5>
+<h6>
+<strong>Сотмаркет</strong>
+</h6>
+<div class='pic'>
+<img alt="V.kruchkov2" src="system/uploads/users_photos/photo/922/v.kruchkov2.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Особенности управления распределенной командой разработчиков</h4>
+<p class='ainfo'>Работать, сидя в домашних тапочках или на берегу теплого моря - это ли не мечта? Управлять командой разработчиков, находящихся в разных частях земли - это ли не ад для менеджера? Команда разработки Сотмаркета на текущий момент составляет 75 человек, при этом в офисе трудятся только 8. Расскажу какие плюсы и минусы есть в таком подходе. Подробно рассмотрим Самый Большой Секрет управления распределенной командой и пройдемся по основным рискам удаленной работы.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Николай Фетюхин</h5>
+<h6>
+<strong>MST digital agency</strong>
+</h6>
+<div class='pic'>
+<img alt="0f7719894259bd52881f6c411ad63f2f" src="system/uploads/users_photos/photo/298/0f7719894259bd52881f6c411ad63f2f.JPG" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Формы digital-коммуникаций. Как выбрать самый короткий путь к цели?</h4>
+<p class='ainfo'>— Что такое digital-стратегия и зачем она нужна?
+<br>
+— Зачем нужны key visul и прототип?
+<br>
+— Какие бывают KPI?
+<br>
+— Что такое механика в digital-стратегии?
+<br>
+— Как определить насколько релевантны инструменты целям?
+<br>
+
+<br>
+а еще шаблоны, методики с примерами на конкретных кейсах OZON, Panasonic, AUDI! Будет полезно для digital-маркетологов, brand-менеджеров, стратегов, аналитиков, PM-ов!
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Екатерина Шукалова</h5>
+<h6>
+<strong>интернет-агентство ФЕРТ</strong>
+</h6>
+<div class='pic'>
+<img alt="40f5ca0d09a4a7bf89ed7e78100da992" src="system/uploads/users_photos/photo/1478/40f5ca0d09a4a7bf89ed7e78100da992.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Как продавать разработку веб-сайтов так, чтобы не было мучительно больно</h4>
+<p class='ainfo'>Я поделюсь своим 9-летним опытом в продажах веб-сайтов. Причем, в самых неблагоприятных условиях: без поддержки, без сети знакомств, без наличия опыта работы в крупных агентствах. Где искать Клиентов? Какие вопросы надо задавать на первой встрече, а какие на последующих? С кем разговаривать и как? Как все не испортить на этапе разработки? Как сделать так, чтобы Клиент возвращался снова и снова?
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Марина Степанова</h5>
+<h6>
+<strong>Яндекс</strong>
+</h6>
+<div class='pic'>
+<img alt="D31ccd1cc650917e54463b7ec5e9402f" src="system/uploads/users_photos/photo/1320/d31ccd1cc650917e54463b7ec5e9402f.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Профилирование и ускорение сложных JavaScript-систем на примере API Яндекс.Карт</h4>
+<p class='ainfo'>Рассказ о том, почему стоит избегать преждевременных оптимизаций, о методиках измерения скорости и о том, за счет чего мы все-таки ускорили работу нашего API.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Равиль Байрамгалин</h5>
+<h6>
+<strong>Evil Martians</strong>
+</h6>
+<div class='pic'>
+<img alt="Ravil" src="system/uploads/users_photos/photo/884/ravil.JPG" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Cassandra 101: Ruby edition</h4>
+<p class='ainfo'>При работе с большими объемами данных появляются новые проблемы, и для их решения есть специальные инструменты. Я помогу вам добавить в  свою копилку знаний информацию о распределенной базе данных Cassandra.
+<br>
+
+<br>
+В ходе доклада вы узнаете:
+<br>
+– как нужно мыслить, чтобы эффективно использовать архитектуру Кассандры,
+<br>
+– почему Кассандру так легко запустить и поддерживать,
+<br>
+– что позволило Кассандре добиться лучшей производительности в своем классе,
+<br>
+– до каких высот можно масштабировать Кассандру,
+<br>
+– что мы сделали, чтобы вам было легко работать с Кассандрой в руби.
+<br>
+
+<br>
+Даже если у вас нет потребности в распределенной базе данных прямо сейчас, в Кассандру заложено крайне много умных идей, которые вам рано или поздно могут понадобиться.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Алексей Пономарь</h5>
+<h6>
+<strong>Буферная бухта</strong>
+</h6>
+<div class='pic'>
+<img alt="8094b3816931be5a1e3b761a59c9ffc8" src="system/uploads/users_photos/photo/189/8094b3816931be5a1e3b761a59c9ffc8.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Идеальный питч</h4>
+<p class='ainfo'>У вас хорошее приложение. Нет, не просто хорошее — лучшее приложение, которое когда либо видел App Store. Вы хотите, чтобы ваше приложение покупали, устанавливали, чтобы им пользовались и рекомендовали его друзьям и знакомым. Как этого добиться?
+<br>
+
+<br>
+Давайте поговорим об аспектах создания сильного продукта. Начиная с того, как понять, что его стоит создавать и заканчивая тем, как построить отношения с прессой и  блогерами. Что такое этот самый идеальный питч, зачем он вам нужен и что он может вам дать.
+<br>
+
+<br>
+Взрывающиеся вертолеты, тонущие корабли, истории успеха и неудачи, откровения из первых уст объективных обозревателей и проплаченных блогеров — все это и многое другое в докладе «Идеальный питч»*.
+<br>
+
+<br>
+*Доклад основан на реальных событиях.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Полина Русяева</h5>
+<h6>
+<strong>ИД Коммерсант</strong>
+</h6>
+<div class='pic'>
+<img alt="4cdf8c2ae8a8be22c8659f38857b9812" src="system/uploads/users_photos/photo/1365/4cdf8c2ae8a8be22c8659f38857b9812.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Рынок интернет-коммерции глазами независимого журналиста. Сладкие мифы и суровая реальность.</h4>
+<p class='ainfo'>Как мы делаем ежегодный рейтинг интернет-магазинов, и почему всегда есть и будут недовольные. Почему один из самых - казалось бы - открытых и развернутых лицом к потребителю сегментов на самом деле является одним из самых закрытых и закомплексованных. Почему время магазинов &quot;на коленке&quot; прошло. Почему тенденции предстоящего года чаще всего оборачиваются провалами года уходящего. Рынок е-коммерса в цифрах и фактах - срез за последние три года.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Александр Носов</h5>
+<h6>
+<strong>Aviasales.ru</strong>
+</h6>
+<div class='pic'>
+<img alt="03c0c03905d952d679d5c62e9439ddb4" src="system/uploads/users_photos/photo/1362/03c0c03905d952d679d5c62e9439ddb4.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Социальные сети как инструмент стимулирования продаж</h4>
+<p class='ainfo'>Среди наиболее продающих источников трафика на крупнейшем в Рунете поисковике авиабилетов Aviasales.ru, помимо поисковых систем, прямых заходов, email-рассылок и т.д. – социальные группы. Конверсия этого трафика – выше среднего. Как мы добились этого в непростых условиях нашего рынка (низкая маржинальность, высокая конкуренция, подверженность сезонности, низкое проникновение электронных форм оплаты)?
+<br>
+
+<br>
+Наша задача - максимально задействовать ресурс социальных сетей в данных условиях, ориентировать его на продажи.
+<br>
+Наши соцгруппы: вКонтакте, Facebook, Twitter, Google+, YouTube, Instagram. Специфика работы с каждой из групп.
+<br>
+
+<br>
+Что мы делаем для повышения продаж:
+<br>
+- Постоянное обновление: Как коррелируют частота обновления и интерес читателей? Что из контента лучше всего продает?
+<br>
+- Интерактив: Как и зачем мы это делаем?
+<br>
+- Мониториг: Как нам это помогает в работе?
+<br>
+- Ориентация на самостоятельный поиск: Зачем нам это нужно? Наш опыт онлайн-консультирования: минусы и плюсы.
+<br>
+
+<br>
+Основные проблемы соцсетей: Какие минусы и ограничения у соцсетей? Как мы решаем основные проблемы (например, боремся с ботами, работаем с негативом)? Какие социальные платформы «не продают» и почему?
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Сергей Мелихов</h5>
+<h6>
+<strong>Greensight</strong>
+</h6>
+<div class='pic'>
+<img alt="1f2f91c60266d7b0ee6089756a617b80" src="system/uploads/users_photos/photo/1238/1f2f91c60266d7b0ee6089756a617b80.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Как повысить эффективность студии на 53% процента</h4>
+<p class='ainfo'>- на что ориентироваться в поисках ниши для своей компании;
+<br>
+- как выбирать клиентов, а не искать их;
+<br>
+- как легко решить любую кадровую проблему;
+<br>
+- как эффективно поделить полномочия между менеджерами и исполнителями;
+<br>
+- как подобрать правильную систему ведения проектов.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Олег Малахов</h5>
+<h6>
+<strong>Dr. JUNG</strong>
+</h6>
+<div class='pic'>
+<img alt="Cab08268877eb39829458fec660c0193" src="system/uploads/users_photos/photo/1301/cab08268877eb39829458fec660c0193.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Настройка креативных процессов в агентстве</h4>
+<p class='ainfo'>Структура в маленьких студиях и сетевых агентствах. Какие циклы проходит проект и кто чем занимается на каждом этапе. Какие проблемы возникают в случае неправильного построения креативных процессов.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Николай Рекубратский</h5>
+<h6>
+<strong>Undev</strong>
+</h6>
+<div class='pic'>
+<img alt="Recorba" src="system/uploads/users_photos/photo/670/recorba.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Сбор и визуализация данных</h4>
+<p class='ainfo'>Это обзорный доклад из двух частей.
+<br>
+
+<br>
+Первая познакомит слушателей со способами сбора и обработки данных:
+<br>
+— насколько стоит доверять информации, собранной тем или иным способом;
+<br>
+— когда и как можно анонимизировать данные;
+<br>
+— как распознать трансформированную информацию;
+<br>
+— с какими ошибками можно столкнуться, автоматизируя предназначеную для человека информацию.
+<br>
+
+<br>
+Вторая посвящена инструментам, используемым мной для визуализаций, в том числе интерактивных, а также быстрого анализа полученных данных.
+<br>
+
+<br>
+Финальным аккордом прозвучит суровая правда о самом интересном и занимательном в анализе данных.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Лев Валкин</h5>
+<h6>
+<strong>Echo</strong>
+</h6>
+<div class='pic'>
+<img alt="Lev-walkin-photo" src="system/uploads/users_photos/photo/665/lev-walkin-photo.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Языко-ориентированное программирование</h4>
+<p class='ainfo'>Как разобраться в предмете через создание языков, описывающих предметную область? Использование DSL, eDSL, а также ручки и бумаги для упрощения проектирования программных систем и интерфейсов между ними. Разберу несколько военных историй лингвистического подхода к проектированию.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Павел Иванов</h5>
+<h6>
+<strong>креативное агентство ЦРУ</strong>
+</h6>
+<div class='pic'>
+<img alt="670ac03e7aafadb85bfcb8aab8c0cfff" src="system/uploads/users_photos/photo/1311/670ac03e7aafadb85bfcb8aab8c0cfff.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Будущее без сайтов</h4>
+<p class='ainfo'>Доклад-дискуссия о будущем Digital-коммуникаций:
+<br>
+- Почему сайты &quot;уже не те&quot;.
+<br>
+- Кому выгодны корпоративные сйты.
+<br>
+- Оценка эффективности корпоративных сайтов в регионах.
+<br>
+- Влияние социальных сетей, профессиональных сервисов и гаджетов на сайтостроение.
+<br>
+Приходите ломать копья в холиваре!
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5 class='lector'>Павел Мищенко</h5>
+<h6>
+<strong>Креативное агентство ЦРУ</strong>
+</h6>
+<div class='pic'>
+<img alt="60cc7824f153dfc1a384764acc0d2380" src="system/uploads/users_photos/photo/404/60cc7824f153dfc1a384764acc0d2380.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Инвестируй в креатив!</h4>
+<p class='ainfo'>В своем докладе я расскажу почему сейчас все больше крупных компаний решаются уйти в креатив, опираясь на Digital технологии, как он помогает привлечь клиентов и расскажу о том, как на самом деле рождаются креативные идеи.
+<br>
+
+<br>
+- Преимущества креативных методик над стандартными форматами рекламы
+<br>
+- Почему креатив продает лучше?
+<br>
+- Методы создание креативной идеи
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Евгений Чернов</h5>
+<h6>
+<strong>MST digital agency</strong>
+</h6>
+<div class='pic'>
+<img alt="E635aa1d46f14911f8f2da943608def6" src="system/uploads/users_photos/photo/517/e635aa1d46f14911f8f2da943608def6.JPG" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4> Как выиграть в тендере у студии Лебедева?</h4>
+<p class='ainfo'>- Что есть продажи? Погружение в суть вопроса продажи Digital продуктов
+<br>
+- Digital продукты, что продаем?
+<br>
+- Кто цель? Лица принимающие решения и люди по ту сторону стола, методы поиска ключевого сотрудника
+<br>
+- Тендеры, как попасть? Как выйграть?
+<br>
+- Откаты? Нет не слышал, личная мотивация.
+<br>
+
+<br>
+Рекомендую всем, и сотрудникам агенств, и сотрудникам на стороне, потому как важно не только знать как продавать, но и как не попасться на трюки. Так что менеджеры по продажам, собственники агенств, бренд-менеджеры, менеджеры по рекламе, директора по маркетингу, велкам!
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Алексей Ёжиков</h5>
+<h6>
+<strong>Кельник</strong>
+</h6>
+<div class='pic'>
+<img alt="43982288175d6f26eed4e738f389ea1b" src="system/uploads/users_photos/photo/1286/43982288175d6f26eed4e738f389ea1b.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Риски в интернет-проектах: от входящего звонка до поддержки проекта</h4>
+<p class='ainfo'>Жизненный путь любого менеджера интернет-проектов обильно полит кровью, потом и адреналином. 99% проектов в индустрии заканчиваются не в срок, с превышением бюджета или с ухудшением отношений с клиентом. Мы поговорим о существующих рисках в ходе всего процесса работы с клиентом, которые неумолимо реализуются из раза в раз, если с ними специально не работать.
+<br>
+— Что делать на этапе предпродажи (pre-sale), чтобы проект оказался успешным?
+<br>
+— Когда и почему нужно отказаться от клиента?
+<br>
+— Что делать с проектными рисками уже запущенного проекта? Что делать, если косячит ваш менеджер, и что, если клиент оказался «трудный»?
+<br>
+— Нужно ли учить клиента в процессе работы?
+<br>
+— Какие есть варианты системного снижения рисков проектной работы?
+<br>
+Всё будем рассматривать на отраслевых примерах, никаких выдержек из PMBoK и других скучных и заумных слайдов.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Павел Трубецков</h5>
+<h6>
+<strong>My Media Company</strong>
+</h6>
+<div class='pic'>
+<img alt="9590f24a0cfb8fbead5a021cb17b38eb" src="system/uploads/users_photos/photo/1280/9590f24a0cfb8fbead5a021cb17b38eb.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Не «веб-студийная» техника разработки клиентских проектов. В поисках утерянной чести корпоративных сайтов.</h4>
+<p class='ainfo'>Большинство веб-студий делают одну и ту же ошибку - пытаются во всем угодить своему клиенту и сделать проект так, лишь бы его приняли.
+<br>
+При таком подходе работа строится следующим образом: клиент предполагает, как должен выглядеть его сайт, а студия угадывает, что творится в голове у клиента и ублажает его.
+<br>
+Итог: проекты, которые никогда не смогут помочь конечным потребителям и сразу могут быть выброшены в мусорную корзину.
+<br>
+
+<br>
+В своем докладе я расскажу, как выстроить процесс работы компании совершенно по другому и начать эволюционный путь от веб-студии к агентству интернет-маркетинга, в котором «маркетинг» значит не меньше чем «интернет».
+<br>
+
+<br>
+Кому будет интересен доклад:
+<br>
+
+<br>
+1. Руководители отдела разработки веб-студий. Его внедрение поможет им создавать проекты без шаманства;
+<br>
+2. Проджект-менеджеры веб-студий, стремящиеся стать руководителями отдела разработки проектов. Знания помогут им сделать это быстрее;
+<br>
+3. Руководители веб-студий, попавшие в стадию стагнации и желающие найти путь к тому, чтобы продавать свои решения дороже и слышать меньше ворчания от сотрудников, уставших «ублажать» необоснованные фантазии клиентов
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Никита Борзых</h5>
+<h6>
+<strong>Express 42</strong>
+</h6>
+<div class='pic'>
+<img alt="Stachka1-2" src="system/uploads/users_photos/photo/669/stachka1-2.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Истинный DevOps. Секрет 42.</h4>
+<p class='ainfo'>Доклад об инструментах и практиках, которые делают делают управление конфигурацией на серверах проще и прозрачнее. В докладе я постараюсь собрать весь опыт эксплуатации интернет проектов, который накопился у команды Express 42. Будут показаны лучшие практики и нюансы использования chef и сопутствующих утилит.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Илья Шаповалов</h5>
+<h6>
+<strong>Zoon.ru</strong>
+</h6>
+<div class='pic'>
+<img alt="9a8ed13b6c8eaa79b15d13bba46c27de" src="system/uploads/users_photos/photo/1245/9a8ed13b6c8eaa79b15d13bba46c27de.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Производительный специализированный поиск: архитектура, область применимости</h4>
+<p class='ainfo'>В Мамбе есть задача — поиск по анкетам. Анкет много, из них в поиске участвует порядка 12 млн. Поиск, помимо непосредственной задачи, используется также для фильтрации анкет для нужд различных функциональных блоков сайта, поэтому запросы разнообразные и сложные, с кучей параметров, и искать нужно очень быстро.
+<br>
+Этим занимается демон поиска. Он строит в памяти bitmap-индекс, а приходящие запросы — компилирует и запускает на выполнение. Получающийся код оптимизирован для поиска по одному конкретному запросу, и он практически не содержит условных переходов, поэтому конвейер процессора всегда полный и поиск работает очень быстро.
+<br>
+Тому, как это всё организовано, и будет посвящён доклад.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Михаил Буйлов</h5>
+<h6>
+<strong>Мамба</strong>
+</h6>
+<div class='pic'>
+<img alt="2a609e9269c5532b27db3284fa3efe3d" src="system/uploads/users_photos/photo/1250/2a609e9269c5532b27db3284fa3efe3d.png" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Цикл разработки, визуальный деплой, автоматизация и интернационализация</h4>
+<p class='ainfo'>Хочется вкратце рассказать о довольно сложной системе разработки, деплоя и сопутствующих задач, которые позволяют ~10 командам разработки, тестировщикам и переводчикам работать параллельно над десятками задач и не мешать друг другу.
+<br>
+Зачем мы перешли с svn на git, почему именно сейчас, какие задачи мы этим решили, и какие проблемы обрели.
+<br>
+Прекоммит хуки для проверки кода на визуальную чистоту и посткоммит хуки для поддержки системы непрерывной интеграции (jenkins).
+<br>
+Визуальный интерфейс для заявок на выкладку кода, интеграция его с redmine, selenium и системой визуального перевода на сайте.
+<br>
+Автоматическое предупреждение конфликтов заявок: кто первый встал, того и тапки. Индикация уровня перевода заявок.
+<br>
+Функционал развертывания заявок в боевом окружении.
+<br>
+Постпроцессинг заявок: генерация файлов переводов, версий статики и т.п.
+<br>
+История и поддержка таск треккера.
+<br>
+Система переводов: визуальный перевод + учет непереведенных лексем.
+<br>
+Непосредственно деплой: почему нельзя делать svn up и как не потерять ни одного реквеста.
+<br>
+Постдеплойментное сопровождение нового кода: системы агрегации логов и мониторинг изменения нагрузки на демоны/сервисы (BTP).
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Дмитрий Ананьев</h5>
+<h6>
+<strong>Мамба</strong>
+</h6>
+<div class='pic'>
+<img alt="F40693edd6dcfd7d8304dc734fc64211" src="system/uploads/users_photos/photo/1248/f40693edd6dcfd7d8304dc734fc64211.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Практические вопросы использования NOSQL в высоконагруженном проекте (NoSQL-экзотика: TokyoTyrant -&gt; KyotoTycoon -&gt; Google LevelDB)</h4>
+<p class='ainfo'>Рассказ о том, как в Мамбе происходило внедрение nosql решений: от выбора и тестирования конкретных реализаций до написания собственного nosql сервера на базе встраиваемой nosql базы данных от Google — leveldb.
+<br>
+О том, с какими проблемами пришлось столкнуться во время эксплуатации конкретных nosql решений, и как пришлось их преодолевать.
+<br>
+Опыт использования nosql серверов: tokyotyrant, kyototycoon, а также собственного сервера на базе движка leveldb. Нагрузка на железо в реальных условиях при использовании Nosql в несколько тысяч запросов на демон с десятка разных серверов. Выбор среди существующих решений — memcachedb, redis, kyototycoon, tokyotyrant, а также сравнение встраиваемых nosql движков — tokyocabinet, kyotocabinet, leveldb.
+<br>
+Тестирование nosql решений с помощью brutis, одновременный запуск на нескольких серверах. Перекрёстная репликация и бэкап со слейвов. Как теоретические расчёты нагрузки оказываются неверными из-за ограничений дисковой подсистемы — постраничное обращение к диску при малой длине хранимых значений. Мониторинг nosql решений в php приложении с помощью BTP. Расширение стандартного интерфейса nosql (get/set/delete) и использование упакованных данных для атомарного изменения нескольких значений сразу.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Василий Ткачев</h5>
+<h6>
+<strong>All in Top</strong>
+</h6>
+<div class='pic'>
+<img alt="52af5e923a12710c0f70033a3500ff44" src="system/uploads/users_photos/photo/1240/52af5e923a12710c0f70033a3500ff44.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Связка SMM и SEO - есть ли будущее?</h4>
+<p class='ainfo'>Последние два года социальные сети все плотнее встраиваются в поисковые алгоритмы давая понять, что без них уже никуда не сдвинуться. В своем докладе я на примерах покажу, что можно сделать в этом направлении.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Иван Никитин</h5>
+<h6>
+<strong></strong>
+</h6>
+<div class='pic'>
+<img alt="1e4fa7f5216e9ce468a7801185eb085b" src="system/uploads/users_photos/photo/347/1e4fa7f5216e9ce468a7801185eb085b.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4> SEO продвижение в эпоху панды и Пингвина</h4>
+<p class='ainfo'>В последнее время мы наблюдаем значительное усиление алгоритмов отсева некачестенных сайтов в выдаче Google - Панда и Пингвин. Панда &quot;пришла&quot; в Гугл в феврале 2011 года и в основном нацелена на внутренние факторы сайта - контент, качество и т.п. А в апреле 2012 года веб-мастера и оптимизаторы столкнулись с новым алгоритмом фильтрации выдачи – Пингвином. Основной особенностью Пингвина является большая направленность на внешние факторы продвижения, а именно на ссылки. Он обращает внимание на их качество, количество, скорость...
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Максим Юрин</h5>
+<h6>
+<strong>Red Keds</strong>
+</h6>
+<div class='pic'>
+<img alt="4ad4fa8327d8feaa0d1b9c388ba7ce18" src="system/uploads/users_photos/photo/1254/4ad4fa8327d8feaa0d1b9c388ba7ce18.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Лайки - мечта любой домохозяйки!</h4>
+<p class='ainfo'>SMM всегда был и остается довольно противоречивым направлением в Digital - лайки, боты, школьники, накрутки... Однако, практически любой digital-проект сейчас содержит в себе часть, связанную с социальными медиа. Кто виноват и что делать в этой ситуации?
+<br>
+
+<br>
+- в чем основная проблема SMM в России?
+<br>
+- в чем измерять эффективность SMM?
+<br>
+- каким бизнесам стоит заниматься маркетингом в социальных сетях, а каким нет?
+<br>
+- успешный специалист в SMM -  кто он?
+<br>
+- тренды и кейсы в SMM
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Георгий Терновский</h5>
+<h6>
+<strong>МедиаНация</strong>
+</h6>
+<div class='pic'>
+<img alt="099bd89d2351a62d839455793aa975ff" src="system/uploads/users_photos/photo/1242/099bd89d2351a62d839455793aa975ff.png" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Как маленькому магазину бороться с федеральными сетями</h4>
+<p class='ainfo'>В чем сила небольших магазинов? Низкие издержки на содержание, да! Но использовать это преимущество для минимизации собственных цен – «путь в никуда». На коротком временном промежутке - это может дать продажи и какой-то доход, но с перспективой усиление конкуренции схема будет работать все хуже и хуже.
+<br>
+Какие есть преимущества кроме низкой цены? В первую очередь это выбор магазина в определенной группе товаров, более плотная работа с контентом, более специализированные продавцы и другие маленькие преимущества на которые не способны гиганты. В презентации я покажу несколько успешных кейсов маленьких магазинов, которые зарабатывают немаленькие деньги.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Иван Лазарев</h5>
+<h6>
+<strong>Островок</strong>
+</h6>
+<div class='pic'>
+<img alt="C36d869679608e2d0d1a8fc8137c5ca1" src="system/uploads/users_photos/photo/831/c36d869679608e2d0d1a8fc8137c5ca1.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Scrum. Почему Ретроспектива умирает первой.</h4>
+<p class='ainfo'>Scrum - популярная методология управления проектами. С ростом популярности увеличивается как число команд, успешно пользующихся этим подходом, так и команд, разочаровавшихся в Scrum. Одним из наиболее важных элементов Scrum является ретроспектива. Однако, очень часто именно с нее начинается постепенное угасание интереса, иногда переходящее в отказ от Scrum. В своем докладе я расскажу, почему ретроспектива так важна и что можно сделать, чтобы она была интересной и эффективной.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Петр Зотов</h5>
+<h6>
+<strong>Evil Martians</strong>
+</h6>
+<div class='pic'>
+<img alt="1ebdde89684c416c413e195ff59673e8" src="system/uploads/users_photos/photo/911/1ebdde89684c416c413e195ff59673e8.JPG" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Ruby для встраиваемых устройств</h4>
+<p class='ainfo'>Foundry - компилятор Ruby для встраиваемых устройств: &quot;умных&quot; термостатов, узлов Internet of Things, Arduino или квадрокоптеров. Хватит писать на Си! Современный объектно-ориентированный язык с блоками и метапрограммированием может быть эффективным.
+<br>
+
+<br>
+Я расскажу о том, как можно скомпилировать код на Ruby для устройства с 8 килобайтами оперативной памяти и почему написать автопилот для квадрокоптера скоро станет не сложнее, чем блог на Rails.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Александр Титов</h5>
+<h6>
+<strong>Express 42</strong>
+</h6>
+<div class='pic'>
+<img alt="Titov" src="system/uploads/users_photos/photo/964/titov.jpeg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Инженерные истории.</h4>
+<p class='ainfo'>Несколько историй о том, как мы с вами делаем Интернет. Иногда грустные, иногда веселые, а в целом довольно поучительные. Вы не будете скучать, а потом программируя очередную подсистему в вашем проекте, вы, я надеюсь, вспомните истории про машину Голдберга, последний горшок или историю про табуретку. Вспомните и не будете так делать :)
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Михаил Табунов</h5>
+<h6>
+<strong>Coub</strong>
+</h6>
+<div class='pic'>
+<img alt="Img_0398-ok" src="system/uploads/users_photos/photo/667/IMG_0398-ok.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Flash для JS разработчиков: чем может быть полезна устаревающая технология в 2013 году</h4>
+<p class='ainfo'>После пяти лет работы Front-End разработчиком по воле случая мне пришлось столкнуться с Adobe Flash. Спустя год работы с ним у меня накопилась куча интересных мыслей и опыта, которыми хотелось бы поделиться: я расскажу о том, что из себя представляет флеш в 2013 году, как на нем разрабатывать, где его применить, кто сейчас его использует и зачем всё это нужно знать любому уважающему себя JS разработчику.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Александр Сербул</h5>
+<h6>
+<strong>1С-Битрикс</strong>
+</h6>
+<div class='pic'>
+<img alt="____" src="system/uploads/users_photos/photo/982/____.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Тонкости разработки и эксплуатации высоконагруженного веб-кластера на 1С-Битрикс</h4>
+<p class='ainfo'>Эволюция архитектуры веб-проекта - от виртуальной машины до кластера
+<br>
+
+<br>
+- Известные высоконагруженные кластерные проекты на 1С-Битрикс - изнутри
+<br>
+
+<br>
+- Опыт эффективного использования Amazon Web Services для веб-кластеров - секреты и подводные камни MySQL и облака - как правильно готовить (master-master, несколько ДЦ)
+<br>
+
+<br>
+- Мониторинг и аналитика - что измерять и почему (pinba, xhprof, nagios, munin)
+<br>
+
+<br>
+- Автоматизация отказоустойчивости - почему не pacemaker Как бэкапить большие нагруженные системы на 1С-Битрикс - от снепшотов raid10 до XtraBackup.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Роман Павлушко</h5>
+<h6>
+<strong>AVITO.ru</strong>
+</h6>
+<div class='pic'>
+<img alt="Pavlushko" src="system/uploads/users_photos/photo/685/pavlushko.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Решаем проблемы по мере их поступления</h4>
+<p class='ainfo'>С быстрым ростом продукта не все удается предусмотреть заранее, меняются требования, меняются объемы данных и кол-во пользователей. За 4 года развития AVITO.ru мы столкнулись с кучей интересных задач, и в докладе рассмотрим решения пары десятков таких! Сжато, быстро, без купюр
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Сергей Аверин</h5>
+<h6>
+<strong>Badoo Development</strong>
+</h6>
+<div class='pic'>
+<img alt="Sa_256x256" src="system/uploads/users_photos/photo/912/sa_256x256.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Полмиллиона юзеров в онлайне без падений: оптимизация высоконагруженного server-side API десктопного приложения</h4>
+<p class='ainfo'>Доклад рассказывает о реально примененных способах оптимизации производительности API компании badoo для собственных десктоп-приложений: как специфика &quot;много постоянных соединений/однотипные запросы/большая нагрузка&quot; повлияла на стратегию оптимизации производительности.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Андрей Ребров</h5>
+<h6>
+<strong>ScrumTrek</strong>
+</h6>
+<div class='pic'>
+<img alt="Andrey-rebrov" src="system/uploads/users_photos/photo/441/andrey-rebrov.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Test Automation Canvas</h4>
+<p class='ainfo'>Все те, кто хотя бы раз пробовали начать автоматизацию сталкиваются с кучей проблем: с чего начать, куда стремиться, как продать начальству и так далее. И, зачастую, хорошее начало не гарантирует успешного продолжения. Так как же сделать так, чтобы старт автоматизации был прост и привел к успешного результату? Как понять, что сейчас мы идем в правильную сторону? Ответить на эти и другие вопросы сможет Test Automaiton Canvas, про который я и хочу рассказать в своем докладе.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Антон Плешивцев</h5>
+<h6>
+<strong>aviasales.ru</strong>
+</h6>
+<div class='pic'>
+<img alt="Img_0047" src="system/uploads/users_photos/photo/916/IMG_0047.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Жидкие и твердые интерфейсы</h4>
+<p class='ainfo'>История о том, как развивалась поисковая выдача Aviasales.ru, о том, как устаревали некоторые решения и как они были заменены на новые.
+<br>
+
+<br>
+Про то, как сделать современное frontend-приложение, какие клиентские фреймворки стоит использовать, а с какими лучше не связываться. Про современную архитектуру клиентских приложений и результатах ее применения в нашей команде. Про оптимизацию и минимизацию итогового решения.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Сергей Аверин</h5>
+<h6>
+<strong>Badoo Development</strong>
+</h6>
+<div class='pic'>
+<img alt="Sa_256x256" src="system/uploads/users_photos/photo/912/sa_256x256.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Не все базы данных одинаково полезны</h4>
+<p class='ainfo'>Выбор хранилища данных - сложная задача, с которой часто сталкиваются разработчики. Чаще всего результат этого выбора - это компромисс. Я расскажу о собственном опыте, набитых &quot;шишках&quot;.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Андрей Шетухин</h5>
+<h6>
+<strong>Communico, LLC</strong>
+</h6>
+<div class='pic'>
+<img alt="Shetuhin" src="system/uploads/users_photos/photo/917/shetuhin.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Рамблер 2009-2012 годов</h4>
+<p class='ainfo'>Доклад про то, как развивать большие доставшиеся в наследство проекты и про управление командой.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Андрей Аксенов</h5>
+<h6>
+<strong>sphinx</strong>
+</h6>
+<div class='pic'>
+<img alt="Aksenov" src="system/uploads/users_photos/photo/921/aksenov.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Зачем знать алгоритмы</h4>
+<p class='ainfo'>Исходник можешь ты не знать, но алгоритмы знать обязан. Это потому, что даже минимальные познания о том, как что устроено внутри разных серверных программных систем позволяют ловко оптимизировать всякое, проводить правильные бенчмарки, принимать осознанные решения о разработке или неразработке своего велосипеда, и т.д. и т.п.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Андрей Аксенов</h5>
+<h6>
+<strong>sphinx</strong>
+</h6>
+<div class='pic'>
+<img alt="Aksenov" src="system/uploads/users_photos/photo/921/aksenov.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Низкоуровневые оптимизации</h4>
+<p class='ainfo'>Когда проект действительно сурово нагруженный, а не 15000 ненужных SQL запросов на страницу, то местами приходится нырять в C/C++ по самый ассемблер. После того, как все возможные и невозможные алгоритмические оптимизации проделаны, можно оставить все как есть, и поставить сотню-другую лишних серверов, а можно нырнуть чутка поглубже и поймать там еще немного производительности, от 2% до 10+ раз.
+<br>
+Доклад вкратце пробежит по типичным приемам и конкретным примерам такой подлёдной ловли.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Андрей Аксенов</h5>
+<h6>
+<strong>sphinx</strong>
+</h6>
+<div class='pic'>
+<img alt="Aksenov" src="system/uploads/users_photos/photo/921/aksenov.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Крадущийся сервер, затаившийся диод</h4>
+<p class='ainfo'>Про измерение производительности и планирование емкости систем. Для разработчиков и администраторов. Как этим следует заниматься и зачем.
+<br>
+От микробенчмарков отдельных операций и подсчета тактов процессора до анализа производительности и планирования емкости в целом. Стандартные ошибки в методологии, тонкие ошибки в проведении экспериментов.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Андрей Мясников</h5>
+<h6>
+<strong>UNDEV</strong>
+</h6>
+<div class='pic'>
+<img alt="Andrey_myasnikov" src="system/uploads/users_photos/photo/26/andrey_myasnikov.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Процесс: как наладить, а не нагадить</h4>
+<p class='ainfo'>Доклад рассчитан на тест-менеджеров и на обычных тестировщиков, которые хотят улучшить свою эффективность.
+<br>
+В докладе рассказывается что же такое тот самый загадочный &quot;процесс тестирования&quot;, который хотят получить все компании и что это обозначает.
+<br>
+Если вы хотите увидеть какие-то технические решения или новые инструменты в этом докладе - лучше не приходите. Но если вы хотите изменить свой подход к работе и повысить качество выпускаемого ПО - вам сюда.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='row-fluid event-item'>
+<div class='span4 sinfo'>
+<div class='col-l'>
+<h5>Андрей Смирнов</h5>
+<h6>
+<strong>Skype</strong>
+</h6>
+<div class='pic'>
+<img alt="Andrey_smirnov" src="system/uploads/users_photos/photo/686/andrey_smirnov.jpg" />
+</div>
+</div>
+</div>
+<div class='span8'>
+<h4>Эффективная команда</h4>
+<p class='ainfo'>&quot;Мне кажется, что то, что я делал год назад, &quot;круче&quot;, чем то, чего я добился сегодня... День закончился, а у меня ощущение, что по сути я ничего не сделал... Наша команда увеличилась в два раза, а мы успеваем сделать меньше...&quot; У вас уже были такие мысли? Я постараюсь найти ответ на эти вопросы в докладе.
+<br>
+
+<br>
+- Эволюция от любителя-одиночки до профессионала в большой компании.
+<br>
+
+<br>
+- Связь размера команды и эффективности ее работы. В чем роль процесса организации разработки?
+<br>
+
+<br>
+- Взаимодействие разработчиков, тестировщиков, отдела эксплуатации, команды создания продукта и их влияние на эффективность.
+<br>
+
+<br>
+- Как построить эффективную команду разработки?
+<br>
+
+<br>
+- Баги и эффективность.
+<br>
+
+<br>
+- Сложность создаваемого продукта, естественное и навязанное разделение на компоненты, а также другие не связанные с разработкой аспекты, влияющие на эффективность.
+<br>
+</p>
+</div>
+<div class='clearfix'></div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='clearfix'></div>
+<div class='sponsors'>
+<div class='border'></div>
+<div class='left-column column'>
+<h4>Организаторы</h4>
+
+<img alt='НП СРИТ' class='logo-srit' height='48' src='images/logo-srit.jpg' width='440'>
+
+<div class='logo-wrapper'>
+<div class='line'>
+<a href='http://m-st.ru/' target='_blank'>
+<img alt='MST Digital Agency' height='78' src='images/logo-mst.jpg' width='108'>
+</a>
+<a href='http://i-dt.ru/' target='_blank'>
+<img alt='interra-group' height='78' src='images/logo-interra.jpg' width='86'>
+</a>
+<a href='http://itmcompany.ru/' target='_blank'>
+<img alt='ITM Company' height='78' src='images/logo-itm.jpg' width='124'>
+</a>
+<a href='http://simtech.ru/' target='_blank'>
+<img alt='Simtech' height='23' src='images/logo-simtech.png' width='120'>
+</a>
+<a href='http://kaize.ru/' target='_blank'>
+<img alt='Кайдзен' height='42' src='images/logo-kaize.jpg' width='130'>
+</a>
+<a href='http://simbirsoft.com/' target='_blank'>
+<img alt='SimbirSoft' height='42' src='images/logo-simbirsoft.jpg' width='140'>
+</a>
+<a href='http://mymediacompany.ru/' target='_blank'>
+<img alt='My Media Company' height='42' src='images/logo-mymedia.jpg' width='147'>
+</a>
+<a href='http://turnkeye.ru/' target='_blank'>
+<img alt='Turnkey' height='51' src='images/logo-turnkey.jpg' width='155'>
+</a>
+<a href='http://platidoma.ru/' target='_blank'>
+<img alt='ПлатиДома' class='platidoma' height='55' src='images/logo-platidoma.jpg' width='118'>
+</a>
+<a href='http://creater.ru/' target='_blank'>
+<img alt='Creater' height='51' src='images/logo-creater.jpg' width='179'>
+</a>
+</div>
+</div>
+<br>
+<h4>Интернет-партнер</h4>
+<div class='logo-wrapper'>
+<a href='http://www.rt.ru/' target='_blank'>
+<img alt='Ростелеком' height='60' src='images/logo-rostelecom.png' width='133'>
+</a>
+</div>
+<br>
+<h4>Информационные партнеры</h4>
+<div class='logo-wrapper'>
+<div class='line'>
+<a href='http://rocid.ru/' target='_blank'>
+<img alt='ROCID' class='rocid' height='53' src='images/logo-rocid.png' width='150'>
+</a>
+<a href='http://in-numbers.ru/' target='_blank'>
+<img alt='inNumbers' height='36' src='images/logo-innumbers.png' width='150'>
+</a>
+<a href='http://www.kp.ru/' target='_blank'>
+<img alt='Комсомольская правда' height='60' src='images/logo-kp.png' width='58'>
+</a>
+<a href='http://ultop.ru/' target='_blank'>
+<img alt='Ultop' height='40' src='images/logo-ultop.jpg' width='160'>
+</a>
+<a href='http://weblancer.net/' target='_blank'>
+<img alt='Weblancer' height='62' src='images/logo-weblancer.jpg' width='119'>
+</a>
+<a href='http://reg.ru/' target='_blank'>
+<img alt='Reg.ru' class='regru' height='62' src='images/logo-regru.jpg' width='174'>
+</a>
+<a href='http://rubyflow.ru/' target='_blank'>
+<img alt='RubyFlow' height='78' src='images/logo-rubyflow.png' width='160'>
+</a>
+<a href='http://www.cmsmagazine.ru/' target='_blank'>
+<img alt='CMSmagazine' height='57' src='images/logo-cmsmagazine.jpg' width='230'>
+</a>
+<a href='http://hackday.ru/' target='_blank'>
+<img alt='Hackday' height='54' src='images/logo-hackday.jpg' width='178'>
+</a>
+<a href='http://www.cnews.ru/' target='_blank'>
+<img alt='Cnews' height='54' src='images/logo-cnews.jpg' width='144'>
+</a>
+<a href='http://rubyjobs.ru/' target='_blank'>
+<img alt='RubyJobs' class='rubyjobs' height='67' src='images/logo-rubyjobs.png' width='77'>
+</a>
+<a href='http://ul-people.ru/' target='_blank'>
+<img alt='ul-people' class='ulpeople' height='36' src='images/logo-ulpeople.jpg' width='160'>
+</a>
+<a href='http://softline.ru/' target='_blank'>
+<img alt='SoftLine' height='28' src='images/logo-softline.png' width='143'>
+</a>
+<a href='http://www.allintop.ru/' target='_blank'>
+<img alt='All-In-Top' class='allintop' height='60' src='images/logo-allintop.png' width='155'>
+</a>
+<a href='http://www.epochta.ru/' target='_blank'>
+<img alt='ePochta' height='80' src='images/logo-epochta.png' width='80'>
+</a>
+<a href='http://www.free-lance.ru/' target='_blank'>
+<img alt='Free-lance.ru' height='24' src='images/logo-freelanceru.png' width='200'>
+</a>
+<a href='http://www.dailycomm.ru/' target='_blank'>
+<img alt='DailyComm' height='54' src='images/logo-dailycomm.jpeg' width='180'>
+</a>
+<a href='http://apps4all.ru/' target='_blank'>
+<img alt='Apps4all' height='60' src='images/logo-apps4all.png' width='120'>
+</a>
+<a href='http://ulv.rabota.ru/' target='_blank'>
+<img alt='RabotaRU' height='30' src='images/logo-rabotaru.png' width='164'>
+</a>
+<a href='http://www.simcat.ru/' target='_blank'>
+<img alt='Simcat' height='49' src='images/logo-simcat.png' width='164'>
+</a>
+<a href='http://www.ulmic.ru/' target='_blank'>
+<img alt='МИЦ' height='80' src='images/logo-mic.png' width='75'>
+</a>
+<img alt='Пятница' height='60' src='images/logo-friday.png' width='173'>
+</div>
+</div>
+</div>
+<div class='right-column column'>
+<h4>Генеральный спонсор</h4>
+<div class='star-sponsors'>
+<div class='item'>
+<a href='http://undev.ru/' target='_blank'>
+<img alt='Undev' height='39' src='images/logo-undev.jpg' width='160'>
+</a>
+</div>
+</div>
+<br>
+<h4>Спонсоры</h4>
+<div class='star-sponsors'>
+<div class='item'>
+<a href='http://avito.ru/' target='_blank'>
+<img alt='Avito' height='66' src='images/sponsor-avito.jpg' width='166'>
+<sup>
+<i class='sponsor-star gold'></i>
+</sup>
+</a>
+</div>
+<div class='item'>
+<a href='http://www.aviasales.ru/' target='_blank'>
+<img alt='Aviasales' height='66' src='images/sponsor-aviasales.jpg' width='198'>
+<sup>
+<i class='sponsor-star argentum'></i>
+</sup>
+</a>
+</div>
+<div class='item'>
+<a href='http://sd-praktika.ru/' target='_blank'>
+<img alt='Системы документооборота' height='59' src='images/logo-sysdoc.png' width='190'>
+<sup>
+<i class='sponsor-star argentum'></i>
+</sup>
+</a>
+</div>
+<div class='legend'>
+<i class='sponsor-star argentum'></i>
+— серебряный спонсор
+<br>
+<i class='sponsor-star gold'></i>
+— золотой спонсор
+</div>
+</div>
+<br>
+<br>
+<h4>
+Партнеры
+</h4>
+<div class='star-sponsors'>
+<div class='item'>
+<a href='http://mosaica.ru/' target='_blank'>
+<img alt='Мозаика' height='40' src='images/logo-mosaica.jpg' width='180'>
+</a>
+<sup>
+<i class='sponsor-star red'></i>
+</sup>
+</div>
+<div class='item itmozg'>
+<a href='http://itmozg.ru/' target='_blank'>
+<img alt='IT-mozg' height='112' src='images/logo-itmozg.jpg' width='136'>
+</a>
+<sup>
+<i class='sponsor-star violin'></i>
+</sup>
+</div>
+<div class='item superjob'>
+<a href='http://www.superjob.ru/' target='_blank'>
+<img alt='SuperJob' height='44' src='images/logo-superjob.png' width='160'>
+</a>
+<sup>
+<i class='sponsor-star green'></i>
+</sup>
+</div>
+<div class='item'>
+<a href='http://it-sobytie.ru/' target='_blank'>
+<img alt='Айти-Событие.рф' height='42' src='images/logo-itsobytiya.png' width='180'>
+</a>
+<sup>
+<i class='sponsor-star bordo'></i>
+</sup>
+</div>
+<div class='item cru'>
+<a href='http://www.pr73.ru/' target='_blank'>
+<img alt='Ц.Р.У.' height='30' src='images/logo-cru.png' width='181'>
+</a>
+</div>
+<div class='item'>
+<a href='http://netcat.ru/' target='_blank'>
+<img alt='Netcat' height='40' src='images/logo-netcat.png' width='180'>
+</a>
+</div>
+<div class='item'>
+<a href='http://about.tagline.ru/' target='_blank'>
+<img alt='Tagline' height='87' src='images/logo-tagline.png' width='180'>
+</a>
+</div>
+<div class='item'>
+<a href='http://ikraikra.ru/' target='_blank'>
+<img alt='Ikraikra' height='60' src='images/logo-ikra.png' width='180'>
+</a>
+</div>
+<div class='item'>
+<a href='http://art-proffi.ru/' target='_blank'>
+<img alt='АртПроффи' height='80' src='images/logo-artproffi.png' width='180'>
+</a>
+</div>
+</div>
+<div class='legend'>
+<i class='sponsor-star red'></i>
+— главный информационный партнер
+<br>
+<i class='sponsor-star violin'></i>
+— HR-партнер
+<br>
+<i class='sponsor-star green'></i>
+— генеральный HR-партнер
+<br>
+<i class='sponsor-star bordo'></i>
+— событийный партнер
+</div>
+<br>
+<br>
+<h4>При поддержке</h4>
+<div class='star-sponsors'>
+<div class='item'>
+<a href='http://it.ulgov.ru/' target='_blank'>
+<img alt='Правительство Ульяновской области' height='62' src='images/logo-ulgov.gif' width='73'>
+</a>
+</div>
+<div class='item'>
+<a href='http://raec.ru/commission/323/' target='_blank'>
+<img alt='РАЭК' height='29' src='images/logo-raec.png' width='160'>
+</a>
+</div>
+<div class='item'>
+<a href='http://www.i-association.ru/' target='_blank'>
+<img alt='Ассоциация интерактивных агенств' height='62' src='images/logo-aia.png' width='180'>
+</a>
+</div>
+</div>
+</div>
+<div class='clearfix'></div>
+</div>
+
+</div>
+</div>
+<script>
+  var reformalOptions = {
+    project_id: 89699,
+    project_host: "nastachku.reformal.ru",
+    tab_orientation: "right",
+    tab_indent: "50%",
+    tab_bg_color: "#fe781e",
+    tab_border_color: "#FFFFFF",
+    tab_image_url: "http://tab.reformal.ru/0JLQvtC%252F0YDQvtGB0Ysg0Lgg0L%252FRgNC10LTQu9C%252B0LbQtdC90LjRjw==/FFFFFF/1f885d8089dc5f859d0ce25bd9769cb4/right/1/tab.png",
+    tab_border_width: 2
+  };
+
+  (function() {
+    var script = document.createElement('script');
+    script.type = 'text/javascript'; script.async = true;
+    script.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'media.reformal.ru/widgets/v3/reformal.js';
+    document.getElementsByTagName('head')[0].appendChild(script);
+  })();
+</script>
+<noscript>
+<a href="http://reformal.ru"><img alt="Reformal" src="http://media.reformal.ru/reformal.png" />
+</a>http://nastachku.reformal.ru
+</noscript>
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38587983-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script>
+  (function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+      try {
+        w.yaCounter20139103 = new Ya.Metrika({
+          id:20139103,
+          webvisor:true,
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true
+        });
+      } catch(e) { }
+    });
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () {
+          n.parentNode.insertBefore(s, n);
+        };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+        if (w.opera == "[object Opera]") {
+          d.addEventListener("DOMContentLoaded", f, false);
+        } else {
+          f();
+        }
+  })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript>
+<div>
+<img alt='' src='http://mc.yandex.ru/watch/20139103' style='position:absolute; left:-9999px;'>
+</div>
+</noscript>
+
+<footer>
+<div class='container'>
+<div class='row'>
+<div class='span3'>
+<div class='copy'>
+<h5>
+<span class='color'>«Стачка»</span>
+</h5>
+<p>
+Copyright © 2012 – 2013
+</p>
+</div>
+</div>
+<div class='span9'>
+<nav class='counter-links pull-right'>
+<ul>
+<li><script>
+  document.write("<a href='http://www.liveinternet.ru/click' "+
+        "target=_blank><img src='http://counter.yadro.ru/hit?t42.6;r&quot;+&#32;&#32;escape(document.referrer)+((typeof(screen)==&quot;undefined&quot;)?&quot;&quot;:&#32;&#32;&quot;;s&quot;+screen.width+&quot;*&quot;+screen.height+&quot;*&quot;+(screen.colorDepth?&#32;&#32;screen.colorDepth:screen.pixelDepth))+&quot;;u&quot;+escape(document.URL)+&#32;&#32;&quot;;&quot;+Math.random()+&#32;&#32;&quot;' alt='' title='LiveInternet' "+
+  "border='0' width='31' height='31'><\/a>")
+</script>
+</li>
+</ul>
+</nav>
+<nav class='social-share-links'>
+<ul>
+<li class='twitter'>
+<iframe allowtransparency='true' frameborder='0' scrolling='no' src='https://platform.twitter.com/widgets/tweet_button.html?url=http://nastachku.ru&amp;via=nastachku&amp;text=Мне нравится конференция СТАЧКА - 2013!&amp;lang=ru&amp;hashtags=nastachku' style='width:110px; height:20px;'></iframe>
+</li>
+<li class='facebook'>
+<iframe allowTransparency='true' frameborder='0' scrolling='no' src='http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fnastachku.ru&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font=arial&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=158311267605711' style='border:none; overflow:hidden; width:110px; height:21px;'></iframe>
+</li>
+<li class='vk'>
+<script type="text/javascript" src="http://vk.com/js/api/openapi.js?78"></script>
+<script type="text/javascript">VK.init({apiId: 3420525, onlyWidgets: true});</script>
+<div id='vk_like'></div>
+<script type="text/javascript">VK.Widgets.Like("vk_like", {type: "button", height: 20, pageTitle: "Конференция СТАЧКА - 2013"});</script>
+</li>
+<li class='gplus'>
+<div class='g-plusone' data-href='http://nastachku.ru' data-size='medium'></div>
+<script type="text/javascript">window.___gcfg = {lang: 'ru'};(function() {var po = document.createElement('script');po.type = 'text/javascript'; po.async = true;po.src = 'https://apis.google.com/js/plusone.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);})();</script>
+</li>
+</ul>
+</nav>
+
+</div>
+</div>
+<div class='clearfix'></div>
+</div>
+</footer>
+<script src="assets/web/application-33d9636102db84e8f20223fbe19d3a81.js" type="text/javascript"></script>
+
+</body>
+</html>
