@@ -1,5 +1,12 @@
-# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file
-#
-# To ban all spiders from the entire site uncomment the next two lines:
-# User-Agent: *
-# Disallow: /
+User-agent: *
+Disallow: /lectors_lectures_workshop_id_eq9.html
+Disallow: /lectors_lectures_workshop_id_eq8.html
+Disallow: /lectors_lectures_workshop_id_eq7.html
+Disallow: /lectors_lectures_workshop_id_eq6.html
+Disallow: /lectors_lectures_workshop_id_eq5.html
+Disallow: /lectors_lectures_workshop_id_eq4.html
+Disallow: /lectors_lectures_workshop_id_eq3.html
+Disallow: /lectors_lectures_workshop_id_eq1.html
+
+Host: 2013.nastachku.ru
+Sitemap: http://2013.nastachku.ru/sitemap.xml
